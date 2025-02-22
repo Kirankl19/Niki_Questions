@@ -9,7 +9,6 @@ public class RemoveDuplicate {
             if (arr[i] != arr[i + 1]) {
                 arr[index++] = arr[i];
             }
-
         }
         arr[index++] = arr[arr.length - 1];
         System.out.println("Array after removing duplicate");
